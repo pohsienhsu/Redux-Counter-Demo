@@ -10,6 +10,4 @@ const store = configureStore({
   }
 });
 
-export const counterActions = counterReducer.actions;
-export const authActions = authReducer.actions;
 export default store;
